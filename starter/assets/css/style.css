@@ -4,7 +4,12 @@
 
 .main-style {
     min-height: 100vh;
-    background: url(../img/cover/cover-scrum-board.png) no-repeat fixed;
+    background: url(../img/cover/cover.png) no-repeat fixed;
     background-size: 360px;
     background-position: right bottom;
+    background-color: rgb(252, 241, 241);
+}
+.tt 
+{
+    padding: 0;
 }
