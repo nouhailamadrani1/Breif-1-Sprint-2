@@ -45,7 +45,7 @@
 				<div class="">
 					<div class="m-3  ">
 						<div class="titrecarte">
-							<h4 class="card-header w-350px  text-white rounded-top fs-15px">To do (<span id="to-do-tasks-count">5</span>)</h4>
+							<h4 class="card-header w-350px  text-white rounded-top fs-15px" >To do (<span id="to-do-tasks-count">5</span>)</h4>
 
 						</div>
 						 <div class="carte tt w-350px  shadow p-1 mb-5  rounded pt-1 flex-column" id="to-do-tasks">
@@ -56,10 +56,10 @@
 				<div class="">
 					<div class="m-3 ">
 						<div class="titrecarte">
-							<h4 class="card-header w-350px  text-white rounded-top fs-15px ">In Progress (<span id="in-progress-tasks-count">4</span>)</h4>
+							<h4 class="card-header w-350px  text-white rounded-top fs-15px  " >In Progress (<span id="in-progress-tasks-count">4</span>)</h4>
 
 						</div>
-						<div class=" carte w-350px p-1 shadow  rounded pt-1" id="in-progress-tasks">
+						<div class=" carte w-350px p-1 shadow  rounded pt-1"  id="in-progress-tasks">
 							<!-- IN PROGRESS TASKS HERE -->
 							<!-- <button class="w-100  mb-1 rounded-3 d-flex border border-white  border-opacity-50">
 								<div class="">
@@ -133,7 +133,7 @@
 				<div class="">
 					<div class="m-3">
 						<div class="titrecarte">
-							<h4 class="card-header w-350px  text-white  rounded-top fs-15px flex-column ">Done (<span id="done-tasks-count">4</span>)</h4>
+							<h4 class="card-header w-350px  text-white  rounded-top fs-15px flex-column "  >Done (<span id="done-tasks-count">4</span>)</h4>
 
 						</div>
 						<div class="carte w-350px  shadow p-1 rounded pt-1" id="done-tasks">
@@ -232,7 +232,7 @@
 		  <form action="" id="task" name="task">
 			<div class="mb-3">
 				<label for="title" class="form-label">Title</label>
-				<input type="title" class=""   name="title" id="title-addTaskk">
+				<input type="title" class="form-control"   name="title" id="title-addTaskk">
 				</div>
 				<!--radios  -->
 				<label for="title" class="form-label">Type</label>
@@ -282,7 +282,7 @@
 				<div class="modal-footer">
 							
 					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="reset">Close</button>
-					<button type="submit" class="btn btn-primary" id="send">Save changes</button>
+					<button type="submit" class="btn btn-primary" data-bs-dismiss="modal" id="send">Save </button>
 				</div>
 						</form>
 						</div>
@@ -306,7 +306,7 @@
 				<form onsubmit="return false" action="" id="taskEdit" name="task">
 				  <div class="mb-3">
 					  <label for="title" class="form-label">Title</label>
-					  <input type="text" class=""   name="title" id="title">
+					  <input type="text" class="form-control"   name="title" id="title">
 					  </div>
 					  <!--radios  -->
 					  <label for="title" class="form-label">Type</label>
@@ -328,7 +328,7 @@
 						
 						<select id="priority" class="form-select" name="priority" >
 						 <option value="Please select ">Please select</option>
-						 <option value="high">high</option>
+						 <option value="High">high</option>
 						 <option value="low">low</option>
 						 <option value="medium">medium</option>
 						 <option value="critacle">critacle</option>
@@ -356,7 +356,7 @@
 		<div class="modal-footer" id="edit-btn">
 				  
 		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="reset">Close</button>
-		  <button type="submit" class="btn btn-primary" id="send">Save changes</button>
+		  <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" id="send">Save changes</button>
 		</div>
 				</form>
 			  </div>
